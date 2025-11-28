@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+.env
+
+# Development/build tools (not needed for production)
+compare_sites.py
+download_site.py
+download_fonts.py
+extract_styles.py
+get_typekit.py
+identify_fonts.py
+rename_fonts.py
+setup_fonts.py
+comparison/
+extracted_styles/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archive (original site backup - don't deploy)
+archive/
+
