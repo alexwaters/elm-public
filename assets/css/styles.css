@@ -671,6 +671,27 @@ textarea {
   color: rgb(0, 0, 0);
 }
 
+#page-footer .made-with {
+  margin-top: 8px;
+  font-size: 12px;
+  color: rgb(100, 100, 100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+#page-footer .github-icon {
+  display: inline-block;
+  vertical-align: middle;
+  color: rgb(100, 100, 100);
+  transition: color 0.2s ease;
+}
+
+#page-footer .made-with a:hover .github-icon {
+  color: #333;
+}
+
 /* ========================================
    RESPONSIVE STYLES
    ======================================== */
