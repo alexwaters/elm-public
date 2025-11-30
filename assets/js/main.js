@@ -55,9 +55,8 @@
     const submitBtn = form.querySelector('.submit-btn');
     const honeypot = form.querySelector('input[name="website"]');
     
-    // Azure Function endpoint - update this after deployment
-    const FORM_ENDPOINT = window.__ELM_CONTACT_ENDPOINT || 
-      'https://elm-contact.azurewebsites.net/api/contact';
+    // Azure Static Web Apps API endpoint (same domain)
+    const FORM_ENDPOINT = '/api/contact';
     
     // Track form load time for basic bot detection
     const formLoadTime = Date.now();
